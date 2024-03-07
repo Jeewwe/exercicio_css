@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header {
+    background-color: #2e51a2 ;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li {
+    display: inline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+header li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto 0 auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    /*height: 220px;*/
+    width: 100%;
+}
+
+.articles article {
+    width: 30%;
+}
+
+section {
+    padding: 20px 0;
+}
+
+section h2,
+.articles article {
+    margin-bottom: 14px;
+}
+
+.articles article h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.articles article a {
+    background-color: #375fbd;
+    color: #ffffff;
+    padding: 4px 5px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+.articles article p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+
+.articles article h3 {
+    font-size: 20px;
+}
+
+section h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+#animes {
+    background-color: #132244;
+}
+
+#jogos {
+    background-color: #132244;
+}
+
+h1 {
+    color: #fff;
+}
+
+h2 {
+    color: #fff;
+}
+
+#animes h2 {
+    color: #fff;
+}
+
+.creation-date {
+    color:rgb(255, 255, 255);
+}
+
+* {
+    color: #ffffff;
+}
+
+p {
+    font-size: 17px;
+}
